@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/danielfrees_website/static/css/main.073c9b0a.css",
-    "main.js": "/danielfrees_website/static/js/main.fc9dd1b3.js",
+    "main.js": "/danielfrees_website/static/js/main.77ac0aa3.js",
     "static/js/787.b0b1eac2.chunk.js": "/danielfrees_website/static/js/787.b0b1eac2.chunk.js",
-    "static/media/headshot.svg": "/danielfrees_website/static/media/headshot.b5433d1b4c027419c656c45107fc7572.svg",
+    "static/media/headshot.svg": "/danielfrees_website/static/media/headshot.cb7b47d68f3cc25595ad6c0fe54fb85e.svg",
     "index.html": "/danielfrees_website/index.html",
     "main.073c9b0a.css.map": "/danielfrees_website/static/css/main.073c9b0a.css.map",
-    "main.fc9dd1b3.js.map": "/danielfrees_website/static/js/main.fc9dd1b3.js.map",
+    "main.77ac0aa3.js.map": "/danielfrees_website/static/js/main.77ac0aa3.js.map",
     "787.b0b1eac2.chunk.js.map": "/danielfrees_website/static/js/787.b0b1eac2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.fc9dd1b3.js"
+    "static/js/main.77ac0aa3.js"
   ]
 }
