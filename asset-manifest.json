@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/danielfrees_website/static/css/main.073c9b0a.css",
-    "main.js": "/danielfrees_website/static/js/main.96092ffa.js",
-    "static/js/787.b0b1eac2.chunk.js": "/danielfrees_website/static/js/787.b0b1eac2.chunk.js",
-    "static/media/freesdata_logo.svg": "/danielfrees_website/static/media/freesdata_logo.e4c03accbee6828a1f951cef0f9d9700.svg",
-    "index.html": "/danielfrees_website/index.html",
-    "main.073c9b0a.css.map": "/danielfrees_website/static/css/main.073c9b0a.css.map",
-    "main.96092ffa.js.map": "/danielfrees_website/static/js/main.96092ffa.js.map",
-    "787.b0b1eac2.chunk.js.map": "/danielfrees_website/static/js/787.b0b1eac2.chunk.js.map"
+    "main.css": "/freesdata/static/css/main.073c9b0a.css",
+    "main.js": "/freesdata/static/js/main.d744dd6e.js",
+    "static/js/787.b0b1eac2.chunk.js": "/freesdata/static/js/787.b0b1eac2.chunk.js",
+    "static/media/freesdata_logo.svg": "/freesdata/static/media/freesdata_logo.e4c03accbee6828a1f951cef0f9d9700.svg",
+    "index.html": "/freesdata/index.html",
+    "main.073c9b0a.css.map": "/freesdata/static/css/main.073c9b0a.css.map",
+    "main.d744dd6e.js.map": "/freesdata/static/js/main.d744dd6e.js.map",
+    "787.b0b1eac2.chunk.js.map": "/freesdata/static/js/787.b0b1eac2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.96092ffa.js"
+    "static/js/main.d744dd6e.js"
   ]
 }
