@@ -1,4 +1,4 @@
-import logo from './headshot.svg';
+import logo from './art/freesdata_logo.svg';
 import './App.css';
 
 function App() {
