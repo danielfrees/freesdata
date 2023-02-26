@@ -3,17 +3,17 @@
   "name": "Frees Data: Daniel Frees, DS",
   "icons": [
     {
-      "src": "freesdata_favicon.ico",
+      "src": "art/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "freesdata_logo_192.png",
+      "src": "art/freesdata_logo_192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "freesdata_logo_512.png",
+      "src": "art/freesdata_logo_512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
