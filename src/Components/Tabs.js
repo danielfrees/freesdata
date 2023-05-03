@@ -1,8 +1,9 @@
+import "core-js/stable";
 import React, { useEffect, useState } from 'react';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import logo from './art/freesdata_logo.svg';
-import RSSParser from 'rss-parser';
+import ShowBlog from './ShowBlog';
 
 function TabsComponent() {
   const [articles, setArticles] = useState([]);
@@ -22,14 +23,6 @@ function TabsComponent() {
     );
   }
 
-  useEffect(() => {
-    const parser = new RSSParser();
-    const feedUrl = 'https://medium.com/feed/@danielfrees';
-    parser.parseURL(feedUrl).then((feed) => {
-      setArticles(feed.items);
-    });
-  }, []);
-
   return (
     <Tabs>
       <TabList>
@@ -39,13 +32,9 @@ function TabsComponent() {
       </TabList>
       <TabPanel>{mainTab()}</TabPanel>
       <TabPanel>
-        <ul>
-          {articles.map((article) => (
-            <li key={article.guid}>
-              <a href={article.link} target="_blank" rel="noopener noreferrer">{article.title}</a>
-            </li>
-          ))}
-        </ul>
+        
+          <ShowBlog/>
+        
       </TabPanel>
       <TabPanel>Hi, I'm Paul!</TabPanel>
     </Tabs>

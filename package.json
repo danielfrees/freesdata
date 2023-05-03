@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "core-js": "^3.30.1",
     "gh-pages": "^4.0.0"
   }
 }
