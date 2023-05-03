@@ -1,9 +1,12 @@
 import logo from './art/freesdata_logo.svg';
 import './App.css';
+import TabsComponent from './Tabs';
+
 
 function App() {
   return (
     <div className="App">
+      <TabsComponent />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
