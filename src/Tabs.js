@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import logo from './art/freesdata_logo.svg';
+import RSSParser from 'rss-parser';
 
 function TabsComponent() {
-  const tabTitles = ['Tab 1', 'Tab 2', 'Tab 3'];
+  const [articles, setArticles] = useState([]);
+
+  const tabTitles = ['Home', 'Articles', 'About'];
 
   function mainTab() {
     return (
@@ -18,10 +21,14 @@ function TabsComponent() {
         </header>
     );
   }
-    
-  const tabContent = [<div key="mainTab">{mainTab()}</div>, 
-                    'Content 2', 
-                    'Content 3'];
+
+  useEffect(() => {
+    const parser = new RSSParser();
+    const feedUrl = 'https://medium.com/feed/@danielfrees';
+    parser.parseURL(feedUrl).then((feed) => {
+      setArticles(feed.items);
+    });
+  }, []);
 
   return (
     <Tabs>
@@ -30,9 +37,17 @@ function TabsComponent() {
           <Tab key={index}>{title}</Tab>
         ))}
       </TabList>
-      {tabContent.map((content, index) => (
-        <TabPanel key={index}>{content}</TabPanel>
-      ))}
+      <TabPanel>{mainTab()}</TabPanel>
+      <TabPanel>
+        <ul>
+          {articles.map((article) => (
+            <li key={article.guid}>
+              <a href={article.link} target="_blank" rel="noopener noreferrer">{article.title}</a>
+            </li>
+          ))}
+        </ul>
+      </TabPanel>
+      <TabPanel>Hi, I'm Paul!</TabPanel>
     </Tabs>
   );
 }
