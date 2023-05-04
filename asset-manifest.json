@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/freesdata/static/css/main.1ebb5180.css",
+    "main.css": "/freesdata/static/css/main.2d2ffcaa.css",
     "main.js": "/freesdata/static/js/main.b0143a8b.js",
     "static/js/787.b0b1eac2.chunk.js": "/freesdata/static/js/787.b0b1eac2.chunk.js",
     "static/media/freesdata_logo.svg": "/freesdata/static/media/freesdata_logo.e4c03accbee6828a1f951cef0f9d9700.svg",
     "index.html": "/freesdata/index.html",
-    "main.1ebb5180.css.map": "/freesdata/static/css/main.1ebb5180.css.map",
+    "main.2d2ffcaa.css.map": "/freesdata/static/css/main.2d2ffcaa.css.map",
     "main.b0143a8b.js.map": "/freesdata/static/js/main.b0143a8b.js.map",
     "787.b0b1eac2.chunk.js.map": "/freesdata/static/js/787.b0b1eac2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ebb5180.css",
+    "static/css/main.2d2ffcaa.css",
     "static/js/main.b0143a8b.js"
   ]
 }
