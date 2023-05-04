@@ -1,5 +1,5 @@
 import './App.css';
-import TabsComponent from './Components/Tabs';
+import TabsComponent from './Tabs';
 
 
 function App() {
