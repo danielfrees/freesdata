@@ -25,11 +25,13 @@
 }
 
 .grid {
-    margin-bottom: 4.5rem!important;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.grid:nth-child(3n+1) {
-    clear: both;
+.grid > * {
+    width: calc(40% - 0.5rem);
+    margin-bottom: 1rem;
 }
 
 .authorimg {
@@ -86,4 +88,10 @@
     font-weight: 500;
     font-size: 15px;
     display: inline;
+}
+
+.grid:before,
+.grid:after {
+    content: "";
+    flex-basis: calc(50% - 1rem);
 }

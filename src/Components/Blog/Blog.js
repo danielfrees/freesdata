@@ -25,16 +25,26 @@ export class Blog extends Component {
 
   componentDidMount() {
     Axios.get(this.mediumURL)
-
       .then((data) => {
-        // console.log(data.data)
+        data.items.forEach(item => {
+          const description = item.description;
+          const startIndex = description.indexOf('<figcaption>');
+          const endIndex = description.indexOf('</figcaption>');
+          if (startIndex !== -1 && endIndex !== -1) {
+            const newDescription = description.substring(0, startIndex) + description.substring(endIndex + 13);
+            item.description = newDescription;
+          }
+        });
+        return data;
+      })
+      .then((data) => {
         const avatar = data.data.feed.image;
         const profileLink = data.data.feed.link;
         const res = data.data.items; //This is an array with the content. No feed, no info about author etc..
         const posts = res.filter(item => item.categories.length > 0);
-
+  
         const title = data.data.feed.title;
-
+  
         this.setState(
           (pre) => ({
             profile: {
@@ -42,7 +52,7 @@ export class Blog extends Component {
               ptitle: title,
               profileurl: profileLink,
               avtar: avatar,
-
+  
             },
             item: posts,
             isloading: false
@@ -58,6 +68,7 @@ export class Blog extends Component {
         console.log(e);
       });
   }
+    
   render() {
    
     let post

@@ -21,7 +21,6 @@ function ShowBlog(props, p) {
               target="_blank"
               style={{ backgroundImage: `url(${props.avtar})` }}
             >
-              Written By Mehul
             </a>
           </div>
         </div>
