@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/freesdata/static/css/main.6ccd67d7.css",
-    "main.js": "/freesdata/static/js/main.539db50f.js",
+    "main.css": "/freesdata/static/css/main.b45aba93.css",
+    "main.js": "/freesdata/static/js/main.a9f8e072.js",
     "static/js/787.b0b1eac2.chunk.js": "/freesdata/static/js/787.b0b1eac2.chunk.js",
     "static/media/freesdata_logo.svg": "/freesdata/static/media/freesdata_logo.e4c03accbee6828a1f951cef0f9d9700.svg",
     "index.html": "/freesdata/index.html",
-    "main.6ccd67d7.css.map": "/freesdata/static/css/main.6ccd67d7.css.map",
-    "main.539db50f.js.map": "/freesdata/static/js/main.539db50f.js.map",
+    "main.b45aba93.css.map": "/freesdata/static/css/main.b45aba93.css.map",
+    "main.a9f8e072.js.map": "/freesdata/static/js/main.a9f8e072.js.map",
     "787.b0b1eac2.chunk.js.map": "/freesdata/static/js/787.b0b1eac2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ccd67d7.css",
-    "static/js/main.539db50f.js"
+    "static/css/main.b45aba93.css",
+    "static/js/main.a9f8e072.js"
   ]
 }
